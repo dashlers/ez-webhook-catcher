@@ -1,5 +1,5 @@
 # ez-webhook-catcher
-*Warning: You can give attackers shell access to your host if you write your scripts wrong or implement this 
+*Warning: You can give attackers shell access to your host if you write your scripts wrong or implement this in any way.
 
 Python flask app that catches webhooks and triggers shell scripts. Does not support params or json body or https or shell script arguments (for now).
 
