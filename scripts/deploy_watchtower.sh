@@ -3,7 +3,7 @@ set -e
 
 # You must have read access to this repo because of already set up git creds or keys.
 REPO="https://github.com/dashlers/app-lab"
-SUBDIR="monitoring_stack"
+SUBDIR="monitoring"
 
 # Setup unique temp dir and auto-cleanup
 DIR=$(mktemp -d)
