@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Define the folder containing your shell scripts
 SCRIPTS_DIR = os.path.abspath("./scripts")
-LISTEN_PORT = 5000
+LISTEN_PORT = 30080
 
 @app.route('/<script_name>.sh', methods=['POST'])
 def catch_webhook(script_name):
